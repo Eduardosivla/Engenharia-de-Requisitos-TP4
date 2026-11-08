@@ -39,5 +39,27 @@ O Sistema é direcionado à sociedade acadêmica como: discentes, docentes, coor
 | RF-11 | Notificar usuário | O sistema deve notificar por e-mail mudanças de sala, aprovações e recusas. | Desejável |
 | RF-12 | Emitir relatório de ocupação | O sistema deve gerar relatório de uso das salas por período, com taxa de ocupação. | Desejável |
 
+---
+#### 2.2. Requisitos Não Funcionais
 
+| ID | Categoria | Descrição |
+| :--- | :--- | :--- |
+| RNF-01 | Desempenho | A autenticação deve ser concluída em até 2 segundos. |
+| RNF-02 | Desempenho | A consulta de ocupação de um dia deve ser exibida em até 3 segundos. |
+| RNF-03 | Segurança | Senhas devem ser armazenadas com hash e a comunicação deve usar HTTPS. |
+| RNF-04 | Usabilidade | Um docente novo deve conseguir localizar uma sala livre e reservá-la em até 3 minutos sem treinamento. |
+| RNF-05 | Disponibilidade | O sistema deve estar disponível pelo menos 95% do tempo no horário letivo. |
+| RNF-06 | Compatibilidade | Deve funcionar nas versões atuais de Chrome, Firefox e Edge. |
+| RNF-07 | Privacidade | O tratamento de dados pessoais deve seguir a LGPD. |
+
+---
+#### 2.3. Regras de Negócio
+
+| ID | Nome | Descrição | Prioridade |
+| :--- | :--- | :--- | :--- |
+| RF01 | Realizar login | O sistema deve permitir que o usuário acesse com e-mail e senha. | Essencial |
+| RF02 | Cadastrar usuário | O sistema deve permitir o cadastro de usuário informando e-mail, senha e categoria. | Essencial |
+| RF03 | Encerrar sessão | O sistema deve permitir que o usuário encerre sua sessão com segurança. | Essencial |
+| RF04 | Gerenciar salas | O administrador deve poder cadastrar, editar e desativar salas, informando bloco, capacidade e recursos (projetor, ar-condicionado, computadores). | Essencial |
+| RF05 | Montar grade fixa | O administrador deve poder alocar turmas em salas e horários para o semestre. | Essencial |
 
