@@ -2,6 +2,8 @@
 
 <br>
 
+<div align="justify">
+  
 ## 1. Introdução
 ### 1.1 Descrição geral do Software
 
@@ -13,11 +15,13 @@ O Sistema é uma aplicação web e mobile que controla de uso de Salas de Aula d
 
 O Sistema é direcionado à sociedade acadêmica como: discentes, docentes, coordenadores e secretários.
 
+
 |Usuário|Descrição|
 |-------|---------|
 |Discentes|Esses usuários são alunos de Universidade Pública que desejam consultar salas de aulas e solicitam as mesmas para atividades acadêmicas, como estudos em grupo ou ensaios de apresentações|
 |Alunos|Esses usuários são professores de Universidade Pública que consultam a grande, disponibilizada pelo sistema, e solicitam salas para reposições, aulas extras, defesas e eventos|
 |Administrador (Coordenação/secretária)| responsável por cadastrar salas, montar a grade fixa, aprovar ou recusar reservas e consultar relatórios. (Perfil acrescentado para viabilizar as funções de gestão)|
+</p>
 
 <br>
 
@@ -61,5 +65,34 @@ O Sistema é direcionado à sociedade acadêmica como: discentes, docentes, coor
 | RF02 | Cadastrar usuário | O sistema deve permitir o cadastro de usuário informando e-mail, senha e categoria. | Essencial |
 | RF03 | Encerrar sessão | O sistema deve permitir que o usuário encerre sua sessão com segurança. | Essencial |
 | RF04 | Gerenciar salas | O administrador deve poder cadastrar, editar e desativar salas, informando bloco, capacidade e recursos (projetor, ar-condicionado, computadores). | Essencial |
-| RF05 | Montar grade fixa | O administrador deve poder alocar turmas em salas e horários para o semestre. | Essencial |
+| RF05 | Montar grade fixa | O administrador deve poder alocar turmas em salas e horários para o semestre. | Essencial|
+
+<br>
+
+### 3. Diagramas UML
+---
+#### 3.1 Diagramas de Casos de Uso
+[Caso de Uso - Usuário](https://github.com/user-attachments/assets/a8eb2aad-ea12-40a2-85ea-b9c3f6295853)
+
+[Caso de Uso - Docente](https://github.com/user-attachments/assets/a9ffe9ce-812d-4502-bc78-423c9b819132)
+
+[Caso de Uso - Discente](https://github.com/user-attachments/assets/0d1b3e22-750e-45ff-bb99-53e581ea0ddb)
+
+[Caso de Uso - Coordenador](https://github.com/user-attachments/assets/b72d1dd3-ab66-471f-a4a4-61c84040cdb4)
+
+---
+#### 3.1 Diagrama de Sequência
+[Diagrama de Sequência - Cadastro](github.com/user-attachments/assets/dca0174b-bf71-408e-ab77-3e447a8d623c)
+
+---
+#### 3.2 Diagrama de Atividade
+[Diagrama de Atividade - Escolher Sala](github.com/user-attachments/assets/5dc42de8-7691-4356-80a5-636f039aa6c0)
+
+</div>
+
+
+
+
+
+
 
