@@ -1,1 +1,43 @@
-# Engenharia-de-Requisitos-TP4
+## Documentação do Software: Sistema de Controle de uso de Sala de Aula da Universidade
+
+<br>
+
+## 1. Introdução
+### 1.1 Descrição geral do Software
+
+O Sistema é uma aplicação web e mobile que controla de uso de Salas de Aula de Universidades Públicas. O foco do sistemas é eliminar a maneira de distruibuições e disponibilização das salas de aula que, geralmente, são gerenciadas por planilhas ou avisos de informações, o que pode ocasionar em 'choques' e dificuldades em encontrar salas livreas para atividades acadêmicas. O sistema mantém e apresenta uma grade fixa a cada semestre, permitindo reservas eventuais, detecta conflitos de horários, mostra ocupações em tempo real e gera relatórios
+
+---
+
+### 1.2 Descrição dos usuários
+
+O Sistema é direcionado à sociedade acadêmica como: discentes, docentes, coordenadores e secretários.
+
+|Usuário|Descrição|
+|-------|---------|
+|Discentes|Esses usuários são alunos de Universidade Pública que desejam consultar salas de aulas e solicitam as mesmas para atividades acadêmicas, como estudos em grupo ou ensaios de apresentações|
+|Alunos|Esses usuários são professores de Universidade Pública que consultam a grande, disponibilizada pelo sistema, e solicitam salas para reposições, aulas extras, defesas e eventos|
+|Administrador (Coordenação/secretária)| responsável por cadastrar salas, montar a grade fixa, aprovar ou recusar reservas e consultar relatórios. (Perfil acrescentado para viabilizar as funções de gestão)|
+
+<br>
+
+### 2. Requisitos Gerais do Software
+---
+#### 2.1 Requisitos Funcionais
+| ID | Nome | Descrição | Prioridade |
+| :--- | :--- | :--- | :--- |
+| RF-01 | Realizar Login | O sistema deve permitir que o usuário acesse com e-mail e senha. | Essencial |
+| RF-02 | Cadastrar Usuário | O sistema deve permitir o cadastro do usuário informando e-mail, senha e categoria (aluno ou docente). | Essencial |
+| RF-03 | Encerrar Sessão | O sistema deve permitir que o usuário encerre sua sessão com segurança. | Essencial |
+| RF-04 | Gerenciar Salas | O administrador deve poder cadastrar, editar e desativar salas, informando bloco, sala. | Essencial |
+| RF-05 | Montar grade fixa | O administrador deve poder alocar turmas em salas e horários para o semestre. | Essencial |
+| RF-06 | Consultar ocupação | O administrador deve poder alocar turmas em salas e horários para o semestre. | Essencial |
+| RF-07 | Detectar conflitos | O sistema deve impedir ou alertar sobre duas alocações na mesma sala e horário, ou do mesmo docente em salas diferentes no mesmo horário. | Essencial |
+| RF-08 | Solicitar reserva eventual | Docentes e alunos devem poder solicitar uma sala livre informando data, horário, finalidade e número de participantes. | Importante |
+| RF-09 | Cancelar reserva | O usuário deve poder cancelar reservas eventuais próprias. | Importante |
+| RF-10 | Aprovar/recusar reserva | O administrador deve poder aprovar ou recusar solicitações pendentes. | Importante |
+| RF-11 | Notificar usuário | O sistema deve notificar por e-mail mudanças de sala, aprovações e recusas. | Desejável |
+| RF-12 | Emitir relatório de ocupação | O sistema deve gerar relatório de uso das salas por período, com taxa de ocupação. | Desejável |
+
+
+
